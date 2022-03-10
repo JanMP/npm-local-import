@@ -17,7 +17,6 @@ const bridge = new SimpleSchema2Bridge(schema);
 
 export const App = () => (
   <div>
-    <h1>moin</h1>
     <AutoForm schema={bridge} />
   </div>
 );
